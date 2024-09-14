@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-// import { useState, useEffect } from 'react';
 import Avatar from './components/Avatar';
 import PartList from './components/PartList';
 import { useState } from 'react';
