@@ -116,14 +116,14 @@ const NOSES = [
 
 
 function App() {
-  const [body, setBody] = useState("");
-  const [eyes, setEyes] = useState("")
-  const [clothesa, setClothesa] = useState("")
-  const [clothesb, setClothesb] = useState("")
-  const [clothesc, setClothesc] = useState("")
-  const [mouths, setMouths] = useState("");
-  const [noses, setNoses] = useState("")
-  const [hair, setHair] = useState("")
+  const [body, setBody] = useState(BODY[0]);
+  const [eyes, setEyes] = useState(EYES[4]);
+  const [clothesa, setClothesa] = useState(CLOTHESA[2]);
+  const [clothesb, setClothesb] = useState(CLOTHESB[3]);
+  const [clothesc, setClothesc] = useState(CLOTHESC[1]);
+  const [mouths, setMouths] = useState(MOUTHS[5]);
+  const [noses, setNoses] = useState(NOSES[0]);
+  const [hair, setHair] = useState(HAIR[6]);
 
   return (
     <div className="All"> 
